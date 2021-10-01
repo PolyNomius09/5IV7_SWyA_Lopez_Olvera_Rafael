@@ -7,14 +7,14 @@ function cifrarCesar(operacion){
     if(mensaje == ""){
         Swal.fire({
             icon: 'error',
-            title: 'Falta data hermano',
-            text: 'No hermano, te falto el mensaje pai',
+            title: 'Mensaje no cifrado',
+            text: 'Lo sentimos, falto colocar el mensaje',
         });
     }else if(clave == ""){
         Swal.fire({
             icon: 'error',
-            title: 'Falta data hermano',
-            text: 'No hermano, te falto la clave pai',
+            title: 'Mensaje no cifrado',
+            text: 'Lo sentimos, falto colocar la clave',
         });
     }else{
         mensaje = mensaje.toLowerCase();
